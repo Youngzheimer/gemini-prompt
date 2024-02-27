@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Gemini 프롬프트 저장 및 삽입",
-    "version": "1.0",
+    "version": "0.1",
     "description": "Gemini 프롬프트를 미리 저장하고 필요할 때마다 삽입하는 크롬 확장 프로그램입니다.",
     "background": {
       "service_worker": "background.js"
@@ -12,7 +12,7 @@
         "js": ["content.js"]
       }
     ],
-    "permissions": ["activeTab", "tabs", "storage"],
+    "permissions": ["activeTab", "storage"],
     "action": {
       "default_popup": "popup.html"
     },
